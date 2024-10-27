@@ -131,7 +131,7 @@ function selectAnswer(e) {
 
 function showScore() {
     resetQuiz();
-    questionElement.innerHTML = `Your score is ${score} out of ${questions.length}`;
+    questionElement.innerHTML = `Your score is ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
